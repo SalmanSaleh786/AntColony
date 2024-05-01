@@ -89,8 +89,10 @@ namespace SBSE_Project_2.Models.Algorithm
             Ant bestAnt = null;
             await Task.Run(() =>
             {
+                //total iterations
                 for (int termCompleted = 0; termCompleted < terminationCounter; ++termCompleted)
                 {
+                    //each ant goes from source to destination
                     foreach (Ant ant in ants)
                     {
                         ant.LevelsTraversed.Clear();
