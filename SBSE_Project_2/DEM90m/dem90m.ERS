@@ -1,0 +1,29 @@
+DatasetHeader Begin
+    Version		= "6.0"
+    Name		= "dem90m.ers"
+    LastUpdated	= Sat Apr 20 07:30:16 GMT 2024
+    DataFile	= "dem90m.bil"
+    DataSetType	= ERStorage
+    DataType	= Raster
+    ByteOrder	= LSBFirst
+    CoordinateSpace Begin
+        Datum		= "WGS84"
+        Projection	= "GEODETIC"
+        CoordinateType	= EN
+        Rotation	= 0:0:0.0
+    CoordinateSpace End
+    RasterInfo Begin
+        CellType	= Unsigned16BitInteger
+        CellInfo Begin
+	        Xdimension	= 0.00137315881587379
+	        Ydimension	= 0.00137318735537322
+        CellInfo End
+        NrOfLines	= 13248
+        NrOfCellsPerLine	= 10388
+        RegistrationCoord Begin
+	        Eastings	= 61.39820889835819884
+	        Northings	= 41.76119783753979675
+        RegistrationCoord End
+        NrOfBands	= 1
+    RasterInfo End
+DatasetHeader End

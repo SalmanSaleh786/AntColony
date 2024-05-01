@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SBSE_Project_2 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SBSE_Project_2 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
